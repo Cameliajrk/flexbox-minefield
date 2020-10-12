@@ -1,0 +1,80 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    width: 424px;
+    height: 424px;
+    background-color: lightgrey;
+    border-left: double 10px grey;
+    border-top: double 10px grey;
+    border-right: double 10px white;
+    border-bottom: double 10px white;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.item {
+    width: 50px;
+    height: 50px;
+    border-right: dotted 3px black;
+    border-bottom: dotted 3px black;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: blue;
+}
+
+.chiffre1, .chiffre2, .chiffre3 {
+    color: lightgrey ;
+}
+
+.bomb > img {
+    visibility: hidden;
+}
+
+.hover {
+    border: outset;
+    width: 47px;
+    height: 47px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.hover:hover {
+    opacity: 0.5;
+}
+
+.chiffre1:hover {
+    color: blue;
+}
+
+.chiffre2:hover{
+    color: green;
+}
+
+.chiffre3:hover {
+    color: red;
+}
+
+.bomb:hover > img {
+    visibility: visible;
+}
+
+img {
+    width: 35px;
+    height: 40px;
+}
